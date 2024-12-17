@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
     const password = document.getElementById('password').value;
   
     // Validate credentials
-    if (username === 'dorothy' && password === '07172022') {
+    if (username === 'dorothy' && password === '08172022') {
       alert('Login successful! 🎉');
       window.location.href = 'home.html'; // Redirect to the main page
     } else {
